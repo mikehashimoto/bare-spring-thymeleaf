@@ -1,0 +1,14 @@
+buildscript {
+	dependencies {
+		classpath group: "org.springframework.boot", name: "spring-boot-gradle-plugin", version: "3.2.2"
+	}
+
+	repositories {
+		mavenCentral()
+	}
+}
+
+plugins {
+	id "java"
+	id "org.springframework.boot" version "3.2.2"
+}
