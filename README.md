@@ -4,13 +4,12 @@ Minimal code needed to create a Spring Boot Application with Thymeleaf
 
 ## Basic Requirements
 
--   Must have Java installed
--   Must have Gradle installed
+-   Must have Java JDK 11 or higher installed
 
 ## Start Up Spring Boot
 
 In order to start the server run the following command:
-`bare-spring-thymeleaf$> gradle bootRun`
+`bare-spring-thymeleaf> ./gradlew bootRun`
 
 After startup, the following message will be displayed:
 
