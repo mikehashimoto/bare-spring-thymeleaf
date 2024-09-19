@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BareRestController {
 
 	@RequestMapping(value = "/")
-	public String index(Model model) {
+	public String home(Model model) {
 		model.addAttribute("message", "Hello, World!");
 
-		return "index";
+		return "index.html";
 	}
 
 }
